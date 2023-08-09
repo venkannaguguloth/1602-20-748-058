@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.main {
+  padding: 20px;
+}
+
+.number-list {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.buttons button.active {
+  background-color: black;
+  color: white;
+}
+
+.number-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.number-table th,
+.number-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.number-table th {
+  background-color: #f2f2f2;
+}
